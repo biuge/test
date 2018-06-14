@@ -10,7 +10,6 @@ function Throttle(fn,wait,time){
         }else {
             t = setTimeout(fn,wait);
         }
-        
     }
 }
 export default Throttle
